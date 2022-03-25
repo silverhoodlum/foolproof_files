@@ -11,7 +11,6 @@ This project is a react practice test I have developed for Foolproof, it allows 
 This project has been build mainly using React, React-Hooks & React-Bootstrap
 
 
-
 ## Installation
 
 To install the api open a terminal
