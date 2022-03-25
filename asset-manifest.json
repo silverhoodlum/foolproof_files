@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/silverhoodlum.github.io/foolproof_files/static/css/main.f35ee2a3.css",
+    "main.js": "/silverhoodlum.github.io/foolproof_files/static/js/main.ee69fe0d.js",
+    "index.html": "/silverhoodlum.github.io/foolproof_files/index.html",
+    "main.f35ee2a3.css.map": "/silverhoodlum.github.io/foolproof_files/static/css/main.f35ee2a3.css.map",
+    "main.ee69fe0d.js.map": "/silverhoodlum.github.io/foolproof_files/static/js/main.ee69fe0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f35ee2a3.css",
+    "static/js/main.ee69fe0d.js"
+  ]
+}
