@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Foolproof Files
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This project is a react practice test I have developed for Foolproof, it allows the usuer to see files and filter them by type or user, a searchbar component is also available.
 
-In the project directory, you can run:
+[DEMO](https://silverhoodlum.github.io/foolproof_files/)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project has been build mainly using React, React-Hooks & React-Bootstrap
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To install the api open a terminal
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+cd api
+npm install
+node index.js
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once api is running open a new terminal & cd into into main folder, install dependencies & start
 
-### `npm run eject`
+```sh
+npm install 
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Design
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The project was design in Adobe XD following the provided brief. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://www.linkpicture.com/q/Foolproof_design.jpg)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Functionality Overview
 
-## Learn More
+Tree component goes as follow
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://www.linkpicture.com/q/Fproof_Files_Diagram.jpg)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+All tge data is fetched from mock-api (running locally on port 3001) in Homepage component.
+I have used react functional components with react hooks to manage state across the tree component.
+Page is mainly divided in two components: **Filters**,  & **Files Directory**. Every time it runs one type of filter it checks if other filters or searchbars active to updated the filtered files.
+The checkboxes are re-usable components from Bootstrap. 
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Thanks for visiting!**
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
