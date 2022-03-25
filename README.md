@@ -41,7 +41,7 @@ Tree component goes as follow
 
 All the data is fetched from mock-api (running locally on port 3001) in Homepage component.
 I have used react functional components with react hooks to manage state across the tree component.
-Page is mainly divided in two components: **Filters**,  & **Files Directory**. Every time it runs one type of filter it checks if other filters or searchbars active to updated the filtered files.
+Page is mainly divided in two components: **Filters**,  & **Files Directory**. Every time it runs one type of filter it checks if other filters or searchbars are active to updated the filtered files.
 The checkboxes are re-usable components from Bootstrap. 
 
 
