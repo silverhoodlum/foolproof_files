@@ -1,0 +1,14 @@
+.filter-type-block{
+    margin: 24px 0 32px 0;
+  
+}
+
+.filter-type-block label:first-child{
+    font-weight: 700;
+    
+}
+
+.form-check{
+    margin: 6px 0 6px 24px;
+
+}

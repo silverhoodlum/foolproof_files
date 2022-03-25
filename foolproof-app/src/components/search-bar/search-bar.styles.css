@@ -1,0 +1,26 @@
+.searchbar-wrap{
+    width: 300px;
+}
+.searchbar-wrap input{
+    width: 100%;
+}
+
+.input-wrap{
+    display: flex;
+    background-color: #fff;
+    color: rgb(87, 87, 87);
+    padding: 0 10px 0 6px;
+}
+
+.input-wrap input{
+    border: 0;
+}
+.input-wrap i{
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.input-wrap input:focus{
+    border: 0;
+    outline: none;
+}

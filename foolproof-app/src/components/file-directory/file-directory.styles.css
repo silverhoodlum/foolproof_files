@@ -1,0 +1,45 @@
+.file-directory-block{
+    background-color: #fff;
+    margin: auto;
+}
+
+.file-directory-header{
+    display: flex;
+    background-color: rgb(56, 159, 255);
+    align-items: center;
+    
+    color: #fff;
+    
+}
+
+.file-directory-header.container{
+    padding: 16px 48px;
+}
+
+.table{
+    margin-top: 32px;
+    border: none;
+}
+.table-bordered > tbody > tr > td,
+.table-bordered > thead > tr > td,
+.table-bordered {
+    border-left: 0;
+    border-right: 0;
+    padding: 16px 0;
+}
+.file-directory-block .table-bordered > thead{
+    height: 64px;
+    vertical-align: middle;
+}
+.table-bordered > thead > tr{
+    border-top: 0;
+}
+.file-directory-block .table>:not(:first-child){
+    border-top: 0;
+}
+
+
+
+.tick-logo{
+    width: 20px;
+}
